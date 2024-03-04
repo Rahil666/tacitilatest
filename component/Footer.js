@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footerBg">
           <div className="innerCard">
             <div className="row">
-              <div className="box addressBox">
+              <div className="box addressBox col-md-4 ps-5">
                 <h1 className="serTxt">
                   Suite #204 <br />
                   6010 W Spring Creek Pkwy, <br />
@@ -18,7 +18,7 @@ export default function Footer() {
                   <h2 className="ch2">info@taciti.com</h2>
                 </a>
               </div>
-              <div className="servicesBox mt-2  col-md-6">
+              <div className="servicesBox mt-2 col-md-3 ps-5">
                 <h1 className="serTxt">Services</h1>
                 <p>
                   <Link href="/business-consulting/" className="customLink">
@@ -51,7 +51,7 @@ export default function Footer() {
                   </Link>
                 </p>
               </div>
-              <div className="servicesBox mt-2   col-md-6">
+              <div className="servicesBox mt-2  col-md-3 ps-5">
                 <h1 className="serTxt">Industries</h1>
                 <p>
                   <Link
@@ -84,7 +84,7 @@ export default function Footer() {
                   </Link>
                 </p>
               </div>
-              <div className="servicesBox mt-2  col-md-6">
+              <div className="servicesBox mt-2 col-md-2 ps-5 ">
                 <h1 className="serTxt">Quick Links</h1>
                 <p className="">
                   <Link href="/contact-us/" className="customLink">
